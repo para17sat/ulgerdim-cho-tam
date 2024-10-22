@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poster-section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.details-section {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.genre {
+    color: #3498db;
+    font-size: 16px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.about h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.movie-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.purchase-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.trailer-btn {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
